@@ -9,7 +9,7 @@ body {
   background-color: ghostwhite;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.logo_area h2 {
+.logo_area h2 a {
   font-size: 30px;
   color: #1e1e1e;
   font-weight: 800;
@@ -17,7 +17,8 @@ body {
 }
 
 .logo_area img {
-  width: 5%;
+  width: 7%;
+  margin-right: 2%;
 }
 
 .header_area {
@@ -55,6 +56,14 @@ body {
 .nav_area ul li a {
   color: #1e1e1e;
   text-wrap: nowrap;
+  background: #e2ddff;
+  padding: 10px 15px;
+  border-radius: 15px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .hero_img img {
@@ -275,6 +284,11 @@ button#submit {
 }
 .links ul li a {
   color: currentcolor;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .links ul li {
@@ -283,4 +297,9 @@ button#submit {
 
 ul li a:hover {
   letter-spacing: 2px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
