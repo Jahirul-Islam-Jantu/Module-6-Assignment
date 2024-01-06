@@ -19,7 +19,7 @@
 .header_area {
   display: flex;
   justify-content: space-around;
-  margin: 3% 0% 3% 0%;
+  margin: 5% 0% 5% 0%;
 }
 
 .logo_area {
@@ -59,19 +59,68 @@
 .hero_text h1 {
   font-size: 80px;
   font-family: math;
-  color: darkslategray;
+  color: #1e1e1e;
 }
 
 .banner_area {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .hero_text {
-  width: 45%;
+  width: 40%;
 }
 
 .hero_img {
-  width: 45%;
+  width: 40%;
+}
+
+.card_img img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.card_section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.card1 {
+  border: 1px solid #f1f1f1;
+  background: #fefefe;
+  box-shadow: 3px 1px 8px 5px #efefef;
+  padding: 2%;
+  border-radius: 5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card_img {
+  width: 100%;
+}
+
+.card_area {
+  margin-left: 5%;
+}
+
+.description {
+  width: 60%;
+  margin-top: 5%;
+}
+
+.description h3 {
+  margin-bottom: 2%;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.description p {
+  font-size: 16px;
+  width: 100%;
+  letter-spacing: 2px;
 }
