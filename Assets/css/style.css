@@ -24,6 +24,8 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 5% 0% 5% 0%;
+  background: beige;
+  padding: 20px;
 }
 
 .logo_area {
@@ -62,7 +64,8 @@ body {
 
 .hero_text h1 {
   font-size: 80px;
-  font-family: math;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #1e1e1e;
 }
 
@@ -98,6 +101,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .card1 {
@@ -155,10 +159,6 @@ body {
   width: 70%;
 }
 
-.card_area {
-  margin-left: 5%;
-}
-
 .description2 {
   width: 60%;
   margin-top: 5%;
@@ -191,10 +191,6 @@ body {
 
 .card_img3 {
   width: 135%;
-}
-
-.card_area {
-  margin-left: 5%;
 }
 
 .description3 {
@@ -233,4 +229,58 @@ body {
   border-bottom: 3px solid;
   font-size: 15px;
   padding: 5px;
+}
+
+button#submit {
+  padding: 10px 15px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+#submit:hover {
+  padding: 10px 15px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  letter-spacing: 2px;
+}
+.footer_area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: beige;
+  padding: 20px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  margin-top: 2%;
+}
+.links ul li a {
+  color: currentcolor;
+}
+
+.links ul li {
+  padding: 5px;
+}
+
+ul li a:hover {
+  letter-spacing: 2px;
 }
