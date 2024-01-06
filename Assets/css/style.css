@@ -5,6 +5,10 @@
   list-style: none;
   text-decoration: none;
 }
+body {
+  background-color: ghostwhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .logo_area h2 {
   font-size: 30px;
   color: #1e1e1e;
@@ -97,9 +101,9 @@
 }
 
 .card1 {
-  border: 1px solid #f1f1f1;
-  background: #fefefe;
-  box-shadow: 3px 1px 8px 5px #efefef;
+  border: 1px solid #f6f6fa;
+  background: #f6f5fb;
+  box-shadow: 3px 1px 8px 5px #efeff1;
   padding: 2%;
   border-radius: 50%;
   align-items: center;
@@ -135,9 +139,9 @@
 }
 
 .card2 {
-  border: 1px solid #f1f1f1;
-  background: #fefefe;
-  box-shadow: 3px 1px 8px 5px #efefef;
+  border: 1px solid #f6f6fa;
+  background: #f6f5fb;
+  box-shadow: 3px 1px 8px 5px #efeff1;
   padding: 2%;
   border-radius: 50%;
   align-items: center;
@@ -173,9 +177,9 @@
 }
 
 .card3 {
-  border: 1px solid #f1f1f1;
-  background: #fefefe;
-  box-shadow: 3px 1px 8px 5px #efefef;
+  border: 1px solid #f6f6fa;
+  background: #f6f5fb;
+  box-shadow: 3px 1px 8px 5px #efeff1;
   padding: 2%;
   border-radius: 50%;
   align-items: center;
@@ -208,4 +212,25 @@
   font-size: 16px;
   width: 100%;
   letter-spacing: 2px;
+}
+
+.input_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.input_area h5 {
+  font-size: 25px;
+  margin-right: 1%;
+}
+
+.input_area input {
+  flex: 0.3;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid;
+  font-size: 15px;
+  padding: 5px;
 }
