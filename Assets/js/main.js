@@ -1,13 +1,16 @@
-const input = document.getElementById("age");
-const submit = document.getElementById("submit");
-const card1 = document.getElementById("card1");
-const card2 = document.getElementById("card2");
-const card3 = document.getElementById("card3");
+function checkAge(event) {
+  const input = document.getElementById("age").value;
+  const child = document.getElementById("childCard");
+  const adult = document.getElementById("adultCard");
 
-submit.addEventListener
-
-
-
-
-
-
+  if (input === "") {
+    child.style.display = "flex";
+    adult.style.display = "flex";
+  } else if (input <= 17) {
+    child.style.display = "flex";
+    adult.style.display = "none";
+  } else {
+    child.style.display = "none";
+    adult.style.display = "flex";
+  }
+}
