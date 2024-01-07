@@ -38,7 +38,6 @@ body {
   margin-right: 13%;
   display: flex;
   align-items: center;
-  flex-wrap: nowrap;
 }
 
 .nav_area ul {
@@ -56,6 +55,8 @@ body {
 .nav_area ul li a {
   color: #1e1e1e;
   text-wrap: nowrap;
+  word-wrap: normal;
+  -ms-word-wrap: normal;
   background: #e2ddff;
   padding: 10px 15px;
   border-radius: 15px;
@@ -309,6 +310,7 @@ body {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  font-size: 20px;
 }
 
 .links ul li {
